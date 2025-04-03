@@ -23,7 +23,7 @@ ENV PORT=8080
 EXPOSE 8080
 
 # Переменная окружения для API Key
-ENV GOOGLE_MAPS_API_KEY=""
+ENV BRAVE_API_KEY=""
 
 # Запускаем приложение
-CMD ["node", "src/google-maps/dist/index.js"]
+CMD ["node", "src/brave-search/index.js"]

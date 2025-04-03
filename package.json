@@ -17,18 +17,9 @@
     "watch": "npm run watch --workspaces",
     "publish-all": "npm publish --workspaces --access public",
     "link-all": "npm link --workspaces",
-    "start": "node src/google-maps/dist/index.js"
+    "start": "node src/brave-search/dist/index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/server-everything": "*",
-    "@modelcontextprotocol/server-gdrive": "*",
-    "@modelcontextprotocol/server-postgres": "*",
-    "@modelcontextprotocol/server-puppeteer": "*",
-    "@modelcontextprotocol/server-slack": "*",
-    "@modelcontextprotocol/server-brave-search": "*",
-    "@modelcontextprotocol/server-memory": "*",
-    "@modelcontextprotocol/server-filesystem": "*",
-    "@modelcontextprotocol/server-everart": "*",
-    "@modelcontextprotocol/server-sequential-thinking": "*"
+    "@modelcontextprotocol/server-brave-search": "*"
   }
 }

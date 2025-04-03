@@ -1,14 +1,14 @@
 {
-  "name": "@modelcontextprotocol/server-google-maps",
+  "name": "@modelcontextprotocol/server-brave-search",
   "version": "0.6.2",
-  "description": "MCP server for using the Google Maps API",
+  "description": "MCP server for Brave Search API integration",
   "license": "MIT",
   "author": "Anthropic, PBC (https://anthropic.com)",
   "homepage": "https://modelcontextprotocol.io",
   "bugs": "https://github.com/modelcontextprotocol/servers/issues",
   "type": "module",
   "bin": {
-    "mcp-server-google-maps": "dist/index.js"
+    "mcp-server-brave-search": "dist/index.js"
   },
   "files": [
     "dist"
@@ -19,11 +19,10 @@
     "watch": "tsc --watch"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.0.1",
-    "@types/node-fetch": "^2.6.12",
-    "node-fetch": "^3.3.2"
+    "@modelcontextprotocol/sdk": "1.0.1"
   },
   "devDependencies": {
+    "@types/node": "^22",
     "shx": "^0.3.4",
     "typescript": "^5.6.2"
   }
