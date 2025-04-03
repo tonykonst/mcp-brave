@@ -26,4 +26,4 @@ EXPOSE 8080
 ENV BRAVE_API_KEY=""
 
 # Запускаем приложение
-CMD ["node", "src/brave-search/index.js"]
+CMD ["node", "dist/brave-search/index.js"]
